@@ -1,0 +1,41 @@
+p{ font-family: "Verdana"; } 
+
+
+* {
+    box-sizing: border-box;
+}
+.column {
+  position: absolute; left: 150px;top: 250px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu ul {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+.menu li {
+	font-family: "Verdana";
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    color: #FF0000;
+}
+.menu li:hover {
+	font-family: "Verdana"
+    background-color: #FF0000;
+    color: #ffffff
+}
+#main{position: absolute; right: 700px; top: 200px;}
+#timeline{position: absolute; left: 500px; top: 100px;}
+
+
+#pic1889{position: absolute; right: 100px; top: 100px;}
+#pic1900{position: absolute; right: 100px; top: 900px;} 
+#pic1904{position: absolute; right: 700px; top: 1100px;}
+#pic1907-1909{position: absolute; right: 100px; top: 1800px;}
+#pic1910{position: absolute; right: 100px; top: 3000px;}
+#pic1917{position: absolute; right: 650px; top: 3500px;}
+#pic1918{position: absolute; right: 300px; top: 4300px;}
+#pic1920{position: absolute; right: 500px; top: 5100px;}
